@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,35 +10,44 @@
   <body>
     <div class="corpo">
       <div class="tela">
-        <input id="tela" placeholder="0" disabled />
+        <p id="tela"></p>
       </div>
       <div class="botoes">
         <div class="linha">
-          <button class="botao" onclick="numero">7</button>
-          <button class="botao" onclick="numero">8</button>
-          <button class="botao" onclick="numero">9</button>
-          <button class="botao" id="azul" onclick="operador">&divide;</button>
-          <button class="botao" id="clear" onclick="limpar">C</button>
+          <button class="botao" onclick="numero('7')">7</button>
+          <button class="botao" onclick="numero('8')">8</button>
+          <button class="botao" onclick="numero('9')">9</button>
+          <button class="botao" id="azul" onclick="operador('/')">
+            &divide;
+          </button>
+          <button class="botao" id="clear" onclick="limpar()">C</button>
         </div>
         <div class="linha">
-          <button class="botao" onclick="numero">4</button>
-          <button class="botao" onclick="numero">5</button>
-          <button class="botao" onclick="numero">6</button>
-          <button class="botao" id="azul">&times;</button>
+          <button class="botao" onclick="numero('4')">4</button>
+          <button class="botao" onclick="numero('5')">5</button>
+          <button class="botao" onclick="numero('6')">6</button>
+          <button class="botao" id="azul" onclick="operador('*')">
+            &times;
+          </button>
+          <button class="botao" id="clear" onclick="backspace()">⌫</button>
         </div>
         <div class="linha">
-          <button class="botao" onclick="numero">1</button>
-          <button class="botao" onclick="numero">2</button>
-          <button class="botao" onclick="numero">3</button>
-          <button class="botao" id="azul" onclick="operador">&minus;</button>
+          <button class="botao" onclick="numero('1')">1</button>
+          <button class="botao" onclick="numero('2')">2</button>
+          <button class="botao" onclick="numero('3')">3</button>
+          <button class="botao" id="azul" onclick="operador('-')">
+            &minus;
+          </button>
         </div>
         <div class="linha">
-          <button class="botao">0</button>
-          <button class="botao">.</button>
-          <button class="botao" id="amarelo" onclick="operador">
+          <button class="botao" onclick="numero('3')">0</button>
+          <button class="botao" onclick="numero('.')">.</button>
+          <button class="botao" id="amarelo" onclick="calcular()">
             &equals;
           </button>
-          <button class="botao" id="azul" onclick="operador">&plus;</button>
+          <button class="botao" id="azul" onclick="operador('+')">
+            &plus;
+          </button>
         </div>
       </div>
     </div>
