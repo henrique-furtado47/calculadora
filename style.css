@@ -1,0 +1,85 @@
+.corpo {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #e77979;
+  padding: 10px;
+  width: fit-content;
+}
+.botoes {
+  display: grid;
+}
+.botoes #clear {
+  font-family: OCR A Std, monospace;
+  font-size: 60px;
+  font-weight: bolder;
+  background-color: #f0f0f0;
+  border: 0px solid #000000;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  box-shadow: 0px 10px 0px 0px #a0a0a0;
+  transition: 0.15s;
+}
+.botoes #azul {
+  font-family: OCR A Std, monospace;
+  font-size: 60px;
+  font-weight: bolder;
+  background-color: #a6f5f1;
+  border: 0px solid #000000;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  box-shadow: 0px 10px 0px 0px #6ea19f;
+  transition: 0.15s;
+}
+.botoes #amarelo {
+  font-family: OCR A Std, monospace;
+  font-size: 60px;
+  font-weight: bolder;
+  background-color: #f5f5a6;
+  border: 0px solid #000000;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  box-shadow: 0px 10px 0px 0px #a19f6e;
+  transition: 0.15s;
+}
+
+.botoes .botao {
+  font-family: OCR A Std, monospace;
+  font-size: 60px;
+  font-weight: bolder;
+  background-color: #66f088;
+  border: 0px solid #000000;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  box-shadow: 0px 10px 0px 0px #38864b;
+  transition: 0.15s;
+}
+
+.botoes .botao:active {
+  box-shadow: 0px 0px 0px 0px #38864b;
+  transform: translateY(13px) scaleX(1.1) scaleY(0.9);
+}
+
+.tela {
+  background-color: aliceblue;
+  height: fit-content;
+}
+.tela #tela {
+  font-family: OCR A Std, monospace;
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: right;
+  margin: 0px 40px 0px 0px;
+  padding: 10px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js"></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="corpo">
+      <div class="tela">
+        <input id="tela" placeholder="0" disabled />
+      </div>
+      <div class="botoes">
+        <div class="linha">
+          <button class="botao" onclick="numero">7</button>
+          <button class="botao" onclick="numero">8</button>
+          <button class="botao" onclick="numero">9</button>
+          <button class="botao" id="azul" onclick="operador">&divide;</button>
+          <button class="botao" id="clear" onclick="limpar">C</button>
+        </div>
+        <div class="linha">
+          <button class="botao" onclick="numero">4</button>
+          <button class="botao" onclick="numero">5</button>
+          <button class="botao" onclick="numero">6</button>
+          <button class="botao" id="azul">&times;</button>
+        </div>
+        <div class="linha">
+          <button class="botao" onclick="numero">1</button>
+          <button class="botao" onclick="numero">2</button>
+          <button class="botao" onclick="numero">3</button>
+          <button class="botao" id="azul" onclick="operador">&minus;</button>
+        </div>
+        <div class="linha">
+          <button class="botao">0</button>
+          <button class="botao">.</button>
+          <button class="botao" id="amarelo" onclick="operador">
+            &equals;
+          </button>
+          <button class="botao" id="azul" onclick="operador">&plus;</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
