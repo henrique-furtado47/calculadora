@@ -61,6 +61,20 @@ body {
   box-shadow: 0px 10px 0px 0px #a19f6e;
   transition: 0.15s;
 }
+.botoes #laranja {
+  font-family: OCR A Std, monospace;
+  font-size: 60px;
+  font-weight: bolder;
+  background-color: #f5c6a6;
+  border: 0px solid #000000;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  box-shadow: 0px 10px 0px 0px #a17b6e;
+  transition: 0.15s;
+}
 
 .botoes .botao {
   font-family: OCR A Std, monospace;
