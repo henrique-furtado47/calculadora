@@ -7,25 +7,25 @@
   border: 10px solid #0e0e0e;
 }
 .dark-mode .botoes #clear {
-  background-color: #0e0e0e;
-  box-shadow: 0px 10px 0px 0px #000000;
+  background-color: #000000;
+  box-shadow: 0px 10px 0px 0px #0e0e0e;
 }
 .dark-mode .botoes #azul {
-  background-color: #091d1d;
-  box-shadow: 0px 10px 0px 0px rgb(5, 17, 17);
+  background-color: rgb(5, 17, 17);
+  box-shadow: 0px 10px 0px 0px #091d1d;
 }
 .dark-mode .botoes #amarelo {
-  background-color: rgb(43, 43, 26);
-  box-shadow: 0px 10px 0px 0px #141406;
+  background-color: #141406;
+  box-shadow: 0px 10px 0px 0px rgb(43, 43, 26);
 }
 .dark-mode .botoes #laranja {
-  background-color: rgb(46, 27, 27);
-  box-shadow: 0px 10px 0px 0px rgb(19, 6, 6);
+  background-color: rgb(19, 6, 6);
+  box-shadow: 0px 10px 0px 0px rgb(46, 27, 27);
 }
 .dark-mode .botoes .botao {
   color: rgb(221, 207, 207);
-  background-color: #111d11;
-  box-shadow: 0px 10px 0px 0px rgb(6, 19, 6);
+  background-color: rgb(6, 19, 6);
+  box-shadow: 0px 10px 0px 0px #111d11;
 }
 .dark-mode .botoes .botao:active {
   box-shadow: 0px 0px 0px 0px #0e2e0e;
