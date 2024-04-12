@@ -1,3 +1,62 @@
+.dark-mode{
+  background-color: rgb(40, 67, 68);
+  color: #ffffff;
+
+}
+.dark-mode .corpo {
+  background-color: #2e2e2e;
+  border: 10px solid #0e0e0e;
+}
+.dark-mode .botoes #clear {
+  background-color: #0e0e0e;
+  box-shadow: 0px 10px 0px 0px #000000;
+}
+.dark-mode .botoes #azul {
+  background-color: #091d1d;
+  box-shadow: 0px 10px 0px 0px rgb(5, 17, 17);
+}
+.dark-mode .botoes #amarelo {
+  background-color: rgb(43, 43, 26);
+  box-shadow: 0px 10px 0px 0px #141406;
+}
+.dark-mode .botoes #laranja {
+  background-color: rgb(46, 27, 27);
+  box-shadow: 0px 10px 0px 0px rgb(19, 6, 6);
+}
+.dark-mode .botoes .botao {
+  color: rgb(221, 207, 207);
+  background-color: #111d11;
+  box-shadow: 0px 10px 0px 0px rgb(6, 19, 6);
+}
+.dark-mode .botoes .botao:active {
+  box-shadow: 0px 0px 0px 0px #0e2e0e;
+}
+.dark-mode .tela {
+  color: rgb(221, 207, 207);
+  background-color: #000000;
+}
+.dark-mode .botaodark {
+  background-color: #757575;
+  box-shadow: 0px 10px 0px 0px #5e5e5e;
+}
+
+.botaodark {
+  font-family: OCR A STD, monospace;
+  font-size: 30px;
+  background-color: #4e3a3a;
+  border: 0px solid #000000;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  box-shadow: 0px 10px 0px 0px #2e2e2e;
+  transition: 0.15s;
+}
+.botaodark:active {
+  box-shadow: 0px 0px 0px 0px #2e2e2e;
+  transform: translateY(13px) scaleX(1.1) scaleY(0.9);
+}
 body {
   background-color: cadetblue;
   display: flex;

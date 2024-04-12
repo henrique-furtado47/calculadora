@@ -24,3 +24,12 @@ function calcular() {
     document.getElementById("tela").innerHTML = "Erro";
   }
 }
+function toggleDarkMode() {
+  if (document.body.classList.contains("dark-mode")) {
+    document.getElementById("btn").innerHTML = "Dark Mode";
+    document.body.classList.remove("dark-mode");
+  } else {
+    document.getElementById("btn").innerHTML = "Light Mode";
+    document.body.classList.add("dark-mode");
+  }
+}
