@@ -1,7 +1,6 @@
-.dark-mode{
+.dark-mode {
   background-color: rgb(40, 67, 68);
   color: #ffffff;
-
 }
 .dark-mode .corpo {
   background-color: #2e2e2e;
@@ -61,8 +60,8 @@ body {
   background-color: cadetblue;
   display: flex;
   justify-content: center;
-  height: 100%;
 }
+
 .corpo {
   display: grid;
   grid-gap: 10px;
@@ -167,4 +166,17 @@ body {
   margin: 0px 40px 0px 0px;
   padding: 10px;
   height: 60px;
+}
+.rodape p {
+  font-family: OCR A Std, monospace;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
+.rodape {
+  position: absolute;
+  height: 0px;
+  bottom: 0px;
 }
