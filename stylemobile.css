@@ -1,0 +1,171 @@
+@media (max-width: 600px) {
+  /* Dark Mode */
+  .dark-mode {
+    background-color: rgb(40, 67, 68);
+    color: #ffffff;
+  }
+
+  .dark-mode .corpo {
+    background-color: #2e2e2e;
+    border: 10px solid #0e0e0e;
+  }
+
+  .dark-mode .botoes #clear {
+    background-color: #000000;
+    box-shadow: 0px 10px 0px 0px #0e0e0e;
+  }
+
+  .dark-mode .botoes #azul {
+    background-color: rgb(5, 17, 17);
+    box-shadow: 0px 10px 0px 0px #091d1d;
+  }
+
+  .dark-mode .botoes #amarelo {
+    background-color: #141406;
+    box-shadow: 0px 10px 0px 0px rgb(43, 43, 26);
+  }
+
+  .dark-mode .botoes #laranja {
+    background-color: rgb(19, 6, 6);
+    box-shadow: 0px 10px 0px 0px rgb(46, 27, 27);
+  }
+
+  .dark-mode .botoes .botao {
+    color: rgb(221, 207, 207);
+    background-color: rgb(6, 19, 6);
+    box-shadow: 0px 10px 0px 0px #111d11;
+  }
+
+  .dark-mode .botoes .botao:active {
+    box-shadow: 0px 0px 0px 0px #0e2e0e;
+  }
+
+  .dark-mode .tela {
+    color: rgb(221, 207, 207);
+    background-color: #000000;
+  }
+
+  .dark-mode .botaodark {
+    background-color: #757575;
+    box-shadow: 0px 10px 0px 0px #5e5e5e;
+  }
+
+  /* Default Styles */
+  .botaodark {
+    font-family: OCR A STD, monospace;
+    font-size: 30px;
+    background-color: #4e3a3a;
+    border: 0px solid #000000;
+    padding: 10px;
+    text-align: center;
+    width: 80px; /* Decreased width to fit 5 buttons in a row */
+    height: 80px; /* Decreased height to fit 5 buttons in a row */
+    margin: 10px; /* Decreased margin to fit 5 buttons in a row */
+    box-shadow: 0px 10px 0px 0px #2e2e2e;
+    transition: 0.15s;
+  }
+
+  .botaodark:active {
+    box-shadow: 0px 0px 0px 0px #2e2e2e;
+    transform: translateY(13px) scaleX(1.1) scaleY(0.9);
+  }
+
+  body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+  }
+
+  .corpo {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #e77979;
+    padding: 10px;
+    width: fit-content;
+    border: 10px solid #a0a0a0;
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 25%;
+    scale: 0.9;
+  }
+
+  .botoes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Changed to 5 columns */
+  }
+
+  .botoes #clear,
+  .botoes #azul,
+  .botoes #amarelo,
+  .botoes #laranja,
+  .botoes .botao {
+    font-family: OCR A Std, monospace;
+    font-size: 60px;
+    font-weight: bolder;
+    border: 0px solid #000000;
+    padding: 10px;
+    text-align: center;
+    width: 80px; /* Decreased width to fit 5 buttons in a row */
+    height: 80px; /* Decreased height to fit 5 buttons in a row */
+    margin: 10px; /* Decreased margin to fit 5 buttons in a row */
+    transition: 0.15s;
+  }
+
+  .botoes #clear {
+    background-color: #f0f0f0;
+    box-shadow: 0px 10px 0px 0px #a0a0a0;
+  }
+
+  .botoes #azul {
+    background-color: #a6f5f1;
+    box-shadow: 0px 10px 0px 0px #6ea19f;
+  }
+
+  .botoes #amarelo {
+    background-color: #f5f5a6;
+    box-shadow: 0px 10px 0px 0px #a19f6e;
+  }
+
+  .botoes #laranja {
+    background-color: #f5c6a6;
+    box-shadow: 0px 10px 0px 0px #a17b6e;
+  }
+
+  .botoes .botao {
+    background-color: #66f088;
+    box-shadow: 0px 10px 0px 0px #38864b;
+  }
+
+  .botoes .botao:active {
+    box-shadow: 0px 0px 0px 0px #38864b;
+    transform: translateY(13px) scaleX(1.1) scaleY(0.9);
+  }
+
+  .tela {
+    background-color: aliceblue;
+    height: fit-content;
+  }
+
+  .tela #tela {
+    font-family: OCR A Std, monospace;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: right;
+    margin: 0px 40px 0px 0px;
+    padding: 10px;
+    height: 60px;
+  }
+
+  .rodape p {
+    font-family: OCR A Std, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .rodape {
+    position: absolute;
+  }
+}
